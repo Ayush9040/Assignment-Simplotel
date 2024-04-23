@@ -242,6 +242,67 @@ header nav a {
   background-image: url("./images/rooms.jpg");
 }
 
+.main-logo {
+  width: 30px;
+  height: 30px;
+  /* background-color: blue; */
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #333;
+}
+
+.main-logo h1 {
+  color: #333;
+  font-weight: 600;
+}
+
+.whatsapp {
+  position: relative;
+  margin-right: 10px;
+}
+
+.white div {
+  width: 20px;
+  height: 20px;
+  border-radius: 35px;
+  background-color: red;
+  position: absolute;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.white {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: pink;
+  position: relative;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.white div::before {
+  content: "";
+  top: 15px;
+  left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  /* background: blue; */
+  border-color: transparent #fff transparent transparent;
+  position: absolute;
+  transform: rotate(-50deg) rotateX(-65deg);
+}
+
 @media (max-width: 576px) {
   header {
     /* display: none; */
