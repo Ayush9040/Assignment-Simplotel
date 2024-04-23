@@ -156,7 +156,7 @@ header nav a {
 }
 
 .service_card img {
-  width: 341px;
+  width: 381px;
   height: 234px;
 }
 
@@ -244,7 +244,7 @@ header nav a {
 
 @media (max-width: 576px) {
   header {
-    display: none;
+    /* display: none; */
   }
 
   .para_sec1 {
@@ -256,7 +256,7 @@ header nav a {
   }
 
   .service_card {
-    padding: 30px 0px;
+    /* padding: 30px 0px; */
   }
 
   .hero-btn {
@@ -272,7 +272,7 @@ header nav a {
     /* transform: translateX(-50%, 50%); */
     bottom: 27px;
     left: 37px;
-    padding: 12px 98px;
+    padding: 19px 105px;
     font-weight: bold;
     color: white;
     font-size: 15px;
@@ -333,5 +333,28 @@ header nav a {
   .card_3 p {
     text-align: center;
     width: 90%;
+  }
+
+  .hero {
+    background-image: url(./images/heroimg.jpg);
+    background-size: cover;
+    height: 117vh;
+    background-position: center;
+    /* text-align: center; */
+    /* background-origin: unset; */
+    background-repeat: no-repeat;
+    position: relative;
+    /* background-position: calc(100% - 20%) calc(100% - 31%); */
+    background-position: center;
+    /* padding-top: 233px; */
+    /* padding-bottom: 100px;*/
+  }
+
+  header nav ul {
+    display: flex;
+    list-style: none;
+    display: none;
+    margin: 0;
+    padding: 0;
   }
 }
