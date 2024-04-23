@@ -418,4 +418,8 @@ header nav a {
     margin: 0;
     padding: 0;
   }
+
+  .img-wrapper {
+    text-align: center;
+  }
 }
